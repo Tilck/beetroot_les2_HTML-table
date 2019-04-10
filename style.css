@@ -31,6 +31,7 @@ body {
     display: inline-block;
     padding: 5px 0;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .weather-medium {
@@ -62,3 +63,8 @@ body {
 .weather-element:nth-child(8) { background-color: #339966;}
 .weather-element:nth-child(9) { background-color: #666699;}
 .weather-element:last-child { background-color: #996699;}
+
+
+.weather-wrap:hover .weather-element {opacity: 0.5;}
+
+.weather-wrap:hover .weather-element:nover {opacity: 1;}
